@@ -1,0 +1,98 @@
+body {
+max-width: 960px;
+font: normal 100%/1.5 "Century Schoolbook", arial, sans-serif; /*100% = 16pt*/
+margin: 0 auto;
+}
+
+h2 {
+font: bold 1.5em /*24px/16px*/ /0.5 "Gurmukhi MN", cursive, arial, sans-serif;
+font-weight: 400;
+background-color: #f3f8ff;
+border-color: #95c3fc;
+border-radius: 10px;
+border-width: 3px;        
+border-style: solid;
+height: 30px;
+padding-top: 20px;
+padding-left: 2.7173913043478%; /* 20px/920px*/
+padding-left: 2.7173913043478%; /* 20px/920px */
+}
+
+h3 {
+font: bold 1.3125em /*21px/16px*/ /0.5 "Gurmukhi MN", cursive, arial, sans-serif;
+font-weight: 400;
+width: 240px;
+text-align: center;
+background-color: #f3f8ff;
+border-color: #95c3fc;
+border-radius: 10px;
+border-width: 3px;        
+border-style: solid;
+height: 30px;
+padding: 20px 20px 0;
+}
+
+p {
+text-indent: 25px;
+padding:0 2.173913043478%; /* 0 20px;/920px*/
+} 
+
+ul {
+padding-top: 20px;
+list-style-type: none;
+}
+
+ul strong {
+font: bold 1.1em /*24px/16px*/ /0.5 "Gurmukhi MN", cursive, arial, sans-serif;
+}
+
+.bg_color { /*---------------------blue GB-----------*/
+background-color: #b7d7ff;
+}
+
+
+
+/*--------------------------------------------Competitor Information----------------------*/
+.comp_list {
+width: 350px;
+margin: 0 auto;
+padding-bottom: 30px;
+}
+
+.servpro {
+width: 305px;
+float: left;
+padding-left: 30px;
+}
+
+.sears {
+width:305px;
+float: left;
+padding-left: 0;
+}
+
+.chemdry {
+width: 305px;
+float: left;
+}
+
+.clear_p {
+clear: both;
+padding: 15px 20px 50px;
+}
+
+/*--------------------------------------------Targeted Audience----------------------------*/
+
+.profile1 {
+width: 400px;
+float: left;
+padding-left: 85px;
+}
+
+.profile2 {
+width: 400px;
+float: left;
+}
+
+
+
