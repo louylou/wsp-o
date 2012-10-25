@@ -1,4 +1,0 @@
-wsp-o
-=====
-
-new wsp 
