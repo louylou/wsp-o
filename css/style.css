@@ -2,3 +2,230 @@
 margin: 0;
 padding: 0;
 }
+
+body {
+max-width: 960px;
+font: normal 100%/1.5 "Century Schoolbook", arial, sans-serif; /*100% = 16pt*/
+color:#174366;
+margin: 0 auto;
+}
+
+
+#mainBG {
+background-color: #cee9ff;
+padding: 25px 45px;
+border-color: #174366;
+border-width: 1px;        
+border-style: solid;
+}
+
+.cta {
+padding-left: 40px;
+}
+
+h1 {
+font: bold 1.5em /*24px/16px*/ /0.5 "Gurmukhi MN", cursive, arial, sans-serif;
+font-weight: 400;
+color: #ffba68;
+text-align: center;
+padding: 20px;
+background-color: #174366;
+border-color: #174366;
+border-radius: 10px;
+border-width: 1px;        
+border-style: solid;
+width: 230px;
+}
+
+
+p {
+text-indent: 25px;
+padding-top: 15px;
+}
+
+/*------------------------------------ NAVIGATION ------------------------------------ */
+
+nav {
+height: 40px;
+}
+
+nav ul {
+background: #cee9ff;
+margin: 0 auto;
+padding: 0;
+}
+
+nav ul li {
+width: 16.46%; /*160px/960px -12 because of each 1px border*/
+float: left;
+list-style-type: none;
+border-color: #174366;
+border-width: 1px;        
+border-style: solid;
+}
+
+
+/*------------------------------------ NAVIGATION LINKS ------------------------------- */
+
+nav ul a {
+text-decoration: none;
+background: #cee9ff;
+display: block;
+height: 40px;
+line-height: 40px;
+text-align: center;
+color: #174366;
+}
+
+nav ul a:link {
+color: #174366;
+}
+
+nav ul a:visited {
+color: #9a9a9a;
+}
+
+ nav ul a:hover {
+color: #174366;
+background: #ffba68;
+}
+
+nav ul a:active {
+color: #fff;
+}
+
+
+/*---------------------------------------HOME PAGE ------------------------------------*/
+
+#about_col {
+float: left;
+width: 28.645833333333%; /*275/960px*/
+padding-right: 4%;
+}
+
+#cleaning_col {
+float: left;
+width: 28.645833333333%; /*275/960px*/
+padding-right: 4%;
+}
+
+#cleaning_col ul li{
+text-align: center;
+list-style-type: none;
+background-color: rgba(255, 255, 255, 0.6);
+border-radius: 10px;
+width: 200px;
+margin-left: 10%;
+margin-top: 7px;
+}
+
+#set_appt_col {
+float: left;
+width: 28.645833333333%; /*275/960px*/
+}
+
+
+
+
+/*--------------------------------------- Appointments/form Page------------------------*/
+
+#h1_margins {
+margin-left: 15%;
+}
+
+form {  
+background-color: rgba(255, 255, 255, 0.6);
+border-radius: 10px;
+}
+
+.form_lists ul{
+list-style-type: none;
+padding: 20px 12%;
+}
+
+.form_lists li {
+padding: 4px;
+}
+
+input:focus {
+background: #fcd8ac;
+}
+
+/*---------------------------submit button------------*/
+
+button.sumbitbutton {
+color: #174366;
+background-color: #ffba68;
+border-color:  #fb9f2f;
+border-radius: 10px;
+width: 25%;
+height: 40px;
+font: bold 1em /*30px/16px*/ /0.5 "Gurmukhi MN", cursive, arial, sans-serif;
+font-weight: 400;
+margin: 0 35% 20px;
+}
+
+button.sumbitbutton:hover {
+color: #cee9ff;
+background-color: #174366;
+border-color: #6285a1;
+}
+
+
+/*--------------------------------------- Appointments/contact Page------------------------*/
+
+#appt_col {
+float: left;
+width: 46.875%; /*450px/960px*/
+}
+
+#contact_col {
+float: left;
+width: 46.875%; /*450px/960px*/
+padding-left: 6%;
+}
+
+
+/*--------------------------------------- Equipment Page------------------------*/
+
+#equip_col {
+float: left;
+width: 46.875%; /*450px/960px*/
+padding-right: 3%;
+}
+
+#equip_col ul li {
+list-style-type: none;
+background-color: rgba(255, 255, 255, 0.6);
+border-radius: 10px;
+width: 400px;
+margin-top: 7px;
+padding-left: 4%;  
+}
+
+#photo_col {
+float: left;
+width: 46.875%; /*450px/960px*/
+} 
+
+/*--------------------------------------- FOOTER ------------------------------------*/
+
+footer {
+color:#174366;
+width: 100%; /* 920px */
+clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
