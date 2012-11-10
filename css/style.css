@@ -218,6 +218,267 @@ clear: both;
 
 
 
+/*---------------------------------------1st media ---------------------------------------------*/
+
+
+@media screen and (min-width:719px) and (max-width: 919px){
+
+
+#mainBG {
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+#logo {
+width: 100%;
+}
+
+nav{
+width: 100%;
+}
+
+.cta {
+width: 90%;
+}
+
+body {
+font: normal 80%/1.5 "Century Schoolbook", arial, sans-serif; 
+}
+
+/*---------------------------appt pg---------*/
+
+form{
+width: 80%;
+}
+
+/*-------------------------equip pg----------*/
+
+#equip_col p {
+padding-left: 10%;
+}
+
+#equip_col ul {
+padding-left: 10%;
+}
+
+/*photos automatically float-none when it hits a smaller screen then this size.
+must be picking up from other
+codes*/
+
+}/* end of media 719*/
+
+/*-------------------------------------- 2nd media tablets------------------------------*/
+
+@media screen and (min-width:480px) and (max-width:718px){
+
+#mainBG {
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+#logo {
+width: 100%;
+}
+
+body {
+font: normal 70%/1.5 "Century Schoolbook", arial, sans-serif; 
+}
+nav {
+width: 100%;
+padding: 0;
+margin: 0;
+}
+.cta {
+width: 90%;
+}
+
+nav ul {
+width: 100%;
+}
+
+/*---------------------home pg--------*/
+
+#media_cleaning {
+width: 10%;
+}
+
+#media_home_img {
+width: 80%;
+}
+
+
+/*---------------appt pg-----------*/
+
+#appt_col p{
+padding-left: 5%;
+}
+
+form{
+margin-left: 5%;
+padding-right: 30%;
+}
+
+#contact_col {
+margin: 0;
+}
+
+/*-------------------------equip pg----------*/
+
+#equip_col p {
+padding-left: 10%;
+}
+
+#equip_col ul li {
+width: 83%;
+margin-left: 10%;
+}
+
+/*#media_equip {
+width: 40%;
+}
+
+#media_van {
+width: 40%;
+}*/
+
+.photo_col img {
+width: 40%;
+}
+
+}/* end of media 480*/
+
+
+/*------------------------------------- 3rd media mobile------------------------------*/
+
+@media screen and (max-width: 479px){
+
+body {
+font: normal 90%/1.5 "Century Schoolbook", arial, sans-serif;
+ 
+}
+
+#mainBG {
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+#logo {
+width: 100%;
+}
+
+nav ul li{
+width: 100%;
+}
+
+.cta {
+display: none;
+}
+
+/*---------------------home pg--------*/
+#about_col h1 {
+margin-left: 15%;
+}
+
+#about_col { 
+width: 92%;
+clear: both;
+float: none;
+margin-left:5%;
+}
+
+#cleaning_col { 
+width: 100%;
+clear: both;
+float: none;
+display: none;
+}
+
+#media_linkone {
+width: 100%;
+clear: both;
+float: none;
+display:none;
+}
+
+#media_linktwo {
+width: 100%;
+clear: both;
+float: none;
+display:none;
+}
+
+#set_appt_col { 
+width: 100%;
+clear: both;
+float: none;
+display: none;
+}
+
+
+#media_home_img {
+width: 100%;
+clear: both;
+float: none;
+display: none;
+}
+
+/*---------------------appt pg--------*/
+
+#h1_margins {
+margin: 0 0 0 20%;
+}
+
+#appt_col p {
+margin: 0 0 5% 13%;
+}
+
+form {
+margin-left:10%;
+}
+
+#appt_col {
+width: 90%;
+clear: both;
+float: none;
+}
+
+#contact_col {
+width: 90%;
+clear: both;
+float: none;
+margin: 5% 0 0 0;
+}
+
+#contact_col h1 {
+margin-left:10%;
+}
+
+
+
+/*---------------------equip pg--------*/
+
+#equip_col {
+width: 95%;
+clear: both;
+float: none;
+margin: 0 5%;
+}
+
+.photo_col {
+width: 100%;
+clear: both;
+float: none;
+}
+
+.photo_col img {
+display: none;
+}
+
+}/* end of media 479*/
+
 
 
 
