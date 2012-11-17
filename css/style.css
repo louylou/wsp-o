@@ -5,7 +5,7 @@ padding: 0;
 
 body {
 max-width: 960px;
-font: normal 100%/1.5 "Century Schoolbook", arial, sans-serif; /*100% = 16pt*/
+font: normal 0.9em/1.8 "Century Schoolbook", arial, sans-serif;
 color:#174366;
 margin: 0 auto;
 }
@@ -19,22 +19,39 @@ border-width: 1px;
 border-style: solid;
 }
 
+#logo {
+display: none;
+}
+
+#logo_tablet {
+display: none;
+}
+
+#logo_banner {
+width: 100%;
+}
+
 .cta {
+padding-top: 20px;
+padding-left: 40px;
+}
+
+.banners {
+padding-top: 20px;
 padding-left: 40px;
 }
 
 h1 {
-font: bold 1.5em /*24px/16px*/ /0.5 "Gurmukhi MN", cursive, arial, sans-serif;
+font: bold 1.5em /*24px/16px*/ /1.0 "Gurmukhi MN", cursive, arial, sans-serif;
 font-weight: 400;
 color: #ffba68;
 text-align: center;
-padding: 20px;
+padding: 7px;
 background-color: #174366;
 border-color: #174366;
 border-radius: 10px;
-border-width: 1px;        
-border-style: solid;
-width: 230px;
+border-width: 1px; 
+margin-right: 2%;       
 }
 
 
@@ -45,10 +62,6 @@ padding-top: 15px;
 
 /*------------------------------------ NAVIGATION ------------------------------------ */
 
-nav {
-height: 40px;
-}
-
 nav ul {
 background: #cee9ff;
 margin: 0 auto;
@@ -56,7 +69,7 @@ padding: 0;
 }
 
 nav ul li {
-width: 16.46%; /*160px/960px -12 because of each 1px border*/
+width: 16.4%;/*16.46%; /*160px/960px -12 because of each 1px border*/
 float: left;
 list-style-type: none;
 border-color: #174366;
@@ -82,7 +95,7 @@ color: #174366;
 }
 
 nav ul a:visited {
-color: #9a9a9a;
+color: #ff8a00;
 }
 
  nav ul a:hover {
@@ -114,7 +127,7 @@ text-align: center;
 list-style-type: none;
 background-color: rgba(255, 255, 255, 0.6);
 border-radius: 10px;
-width: 200px;
+width: 80%; 
 margin-left: 10%;
 margin-top: 7px;
 }
@@ -125,7 +138,116 @@ width: 28.645833333333%; /*275/960px*/
 }
 
 
+/*--------------------------------------- Cleaning Page------------------------*/
 
+#cleaning_services_col {
+float: left;
+width: 57.291666666667%; /*550px/960px*/
+}
+
+
+#cleaning_services_pics {
+float: left;
+width: 20.833333333333%;/*200 /*31.25%; /*300px/960px*/ 
+} 
+
+#cleaning_services_col table {
+float: left;
+width: 100%;
+border-collapse: collapse;
+border: 1px solid #174366;
+margin: 10px 0 0 0;
+}
+
+#cleaning_services_col th {
+font: bold 1.0em/0.5 "Century Schoolbook", cursive, Arial, sans-serif;
+font-weight: 400;
+background-color: #174366;
+color: #ffba68;
+padding: 0.9em 0.6em;
+}
+
+#cleaning_services_col td {
+font:normal 0.9em/1.5 "Century Schoolbook", cursive, Arial, sans-serif;
+font-weight: 400;
+border: 1px solid #999a9a;
+text-align: center;
+padding: 3px 0;
+}
+
+.highlight {
+background-color: #ebf5fd;
+}
+
+
+/*--------------------------------------- washing Page------------------------*/
+
+#washing_services_col {
+float: left;
+width: 57.291666666667%; /*550px/960px*/
+}
+
+#washing_services_col table {
+float: left;
+border-collapse: collapse;
+border: 1px solid #174366;
+margin: 10px 2% 0 0;
+}
+
+#washing_services_pics {
+float: left;
+width: 20.833333333333%;/*31.25%; /*300px/960px*/
+} 
+
+#washing_services_col th {
+font: bold 1.0em/0.5 "Century Schoolbook", cursive, Arial, sans-serif;
+font-weight: 400;
+background-color: #174366;
+color: #ffba68;
+padding: 0.9em 0.6em;
+}
+
+#washing_services_col td {
+font:normal 0.9em/1.5 "Century Schoolbook", cursive, Arial, sans-serif;
+font-weight: 400;
+border: 1px solid #999a9a;
+text-align: center;
+padding: 3px 0;
+}
+
+.highlight {
+background-color: #ebf5fd;
+}
+
+
+/*--------------------------------------- Specials Page------------------------*/
+
+#specials_col table {
+border-collapse: collapse;
+border: 1px solid #174366;
+margin: 0 auto;
+}
+ 
+#specials_col th {
+font: bold 1.0em/0.5 "Century Schoolbook", cursive, Arial, sans-serif;
+font-weight: 400;
+background-color: #174366;
+color: #ffba68;
+padding: 0.9em 0.9em;
+}
+
+#specials_col td {
+font:normal 0.9em/1.5 "Century Schoolbook", cursive, Arial, sans-serif;
+font-weight: 400;
+border: 1px solid #999a9a;
+text-align: center;
+padding: 3px 0;
+padding: 5px 1%;
+}
+
+.orange_highlight {
+background-color: #ffba68;
+}
 
 /*--------------------------------------- Appointments/form Page------------------------*/
 
@@ -211,9 +333,13 @@ width: 46.875%; /*450px/960px*/
 /*--------------------------------------- FOOTER ------------------------------------*/
 
 footer {
+font:normal 0.7em/1.5 "Century Schoolbook", cursive, Arial, sans-serif;
+font-weight: 400;
+text-align: center;
 color:#174366;
 width: 100%; /* 920px */
 clear: both;
+margin-top: 40px;
 }
 
 
@@ -223,16 +349,16 @@ clear: both;
 
 @media screen and (min-width:719px) and (max-width: 919px){
 
-
 #mainBG {
 width: 100%;
 margin: 0;
 padding: 0;
 }
 
-#logo {
+#logo_banner {
 width: 100%;
 }
+
 
 nav{
 width: 100%;
@@ -241,10 +367,27 @@ width: 100%;
 .cta {
 width: 90%;
 }
+.banners {
+width: 90%;
+}
 
 body {
 font: normal 80%/1.5 "Century Schoolbook", arial, sans-serif; 
 }
+
+
+
+/*---------------------------cleaning pg---------*/
+
+#cleaning_services_col {
+padding-left:2%;
+}
+
+
+/*---------------------------washing pg---------*/
+
+/*---------------------------specials pg---------*/
+
 
 /*---------------------------appt pg---------*/
 
@@ -270,7 +413,7 @@ codes*/
 
 /*-------------------------------------- 2nd media tablets------------------------------*/
 
-@media screen and (min-width:480px) and (max-width:718px){
+@media screen and (min-width:480px) and (max-width:718px){ 
 
 #mainBG {
 width: 100%;
@@ -278,19 +421,33 @@ margin: 0;
 padding: 0;
 }
 
-#logo {
+#logo_tablet {
+display: block;
 width: 100%;
+height: 80px;
+}
+
+#logo {
+display: none;
+}
+
+#logo_banner {
+display: none;
 }
 
 body {
 font: normal 70%/1.5 "Century Schoolbook", arial, sans-serif; 
 }
-nav {
-width: 100%;
-padding: 0;
-margin: 0;
+
+nav ul li {
+width: 16.2%;
 }
+
 .cta {
+width: 90%;
+}
+
+.banners {
 width: 90%;
 }
 
@@ -300,13 +457,42 @@ width: 100%;
 
 /*---------------------home pg--------*/
 
-#media_cleaning {
-width: 10%;
-}
-
 #media_home_img {
 width: 80%;
 }
+
+
+/*---------------cleaning pg-----------*/
+
+#cleaning_services_col {
+float: none;
+width: 100%;
+padding-left:2%;
+}
+
+#cleaning_services_col table {
+float: none;
+width: 100%;
+}
+
+#cleaning_services_pics {
+float: none;
+width: 100%;
+padding-top: 20px;
+margin-left: 20%;
+
+}
+
+
+/*---------------washing pg-----------*/
+
+
+
+
+/*---------------specials pg-----------*/
+
+
+
 
 
 /*---------------appt pg-----------*/
@@ -335,14 +521,6 @@ width: 83%;
 margin-left: 10%;
 }
 
-/*#media_equip {
-width: 40%;
-}
-
-#media_van {
-width: 40%;
-}*/
-
 .photo_col img {
 width: 40%;
 }
@@ -352,7 +530,7 @@ width: 40%;
 
 /*------------------------------------- 3rd media mobile------------------------------*/
 
-@media screen and (max-width: 479px){
+@media screen and (max-width: 479px){ 
 
 body {
 font: normal 90%/1.5 "Century Schoolbook", arial, sans-serif;
@@ -365,8 +543,19 @@ margin: 0;
 padding: 0;
 }
 
+
 #logo {
+display: block;
 width: 100%;
+
+}
+
+#logo_tablet {
+display: none;
+}
+
+#logo_banner {
+display: none;
 }
 
 nav ul li{
@@ -377,10 +566,11 @@ width: 100%;
 display: none;
 }
 
-/*---------------------home pg--------*/
-#about_col h1 {
-margin-left: 15%;
+.banners {
+display: none;
 }
+
+/*---------------------home pg--------*/
 
 #about_col { 
 width: 92%;
@@ -425,6 +615,53 @@ float: none;
 display: none;
 }
 
+
+/*---------------------cleaning pg--------*/
+
+#cleaning_services_col {
+float: none;
+width: 98%;
+padding: 0 2%;
+}
+
+#cleaning_services_col table {
+float: none;
+width: 98%;
+}
+
+
+#cleaning_services_col th {
+font: normal 90%/1.3 "Century Schoolbook", arial, sans-serif;
+}
+
+#cleaning_services_pics {
+display: none;
+}
+
+
+
+/*---------------------washing pg--------*/
+
+#washing_services_col {
+float: none;
+width: 98%;
+padding: 0 2%;
+}
+
+#washing_services_col table {
+float: none;
+width: 98%;
+}
+
+#washing_services_pics {
+display:none;
+}
+
+/*---------------------specials pg--------*/
+
+#specials_col th {
+font: normal 90%/1.3 "Century Schoolbook", arial, sans-serif;
+}
 /*---------------------appt pg--------*/
 
 #h1_margins {
@@ -456,6 +693,9 @@ margin: 5% 0 0 0;
 margin-left:10%;
 }
 
+#comment {
+width: 98%;
+}
 
 
 /*---------------------equip pg--------*/
@@ -464,7 +704,11 @@ margin-left:10%;
 width: 95%;
 clear: both;
 float: none;
-margin: 0 5%;
+margin: 0 2%;
+}
+
+#h1_margins {
+margin: 0 auto;
 }
 
 .photo_col {
